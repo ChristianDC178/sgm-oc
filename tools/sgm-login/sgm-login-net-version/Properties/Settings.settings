@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Sgm.OC.Login.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="urlLocal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="portLocal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3000</Value>
+    </Setting>
+    <Setting Name="urlVPN" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.0.180</Value>
+    </Setting>
+    <Setting Name="portVpn" Type="System.String" Scope="User">
+      <Value Profile="(Default)">9560</Value>
+    </Setting>
+    <Setting Name="schema" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http</Value>
+    </Setting>
+    <Setting Name="urlTemplate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{0}://{1}:{2}/auth/token=</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

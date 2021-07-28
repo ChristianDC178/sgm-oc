@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sgm.OC.Login", "Sgm.OC.Login.csproj", "{556C7BFD-DA16-48DC-A8D9-7F326B118258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptionToVB6", "..\aes-encription-com-dll\EncryptionToVB6\EncryptionToVB6.csproj", "{F437880D-256C-4A04-A50C-A1A7819F1459}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{556C7BFD-DA16-48DC-A8D9-7F326B118258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556C7BFD-DA16-48DC-A8D9-7F326B118258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556C7BFD-DA16-48DC-A8D9-7F326B118258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556C7BFD-DA16-48DC-A8D9-7F326B118258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F437880D-256C-4A04-A50C-A1A7819F1459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F437880D-256C-4A04-A50C-A1A7819F1459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F437880D-256C-4A04-A50C-A1A7819F1459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F437880D-256C-4A04-A50C-A1A7819F1459}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56368DDC-7D21-44C1-8972-662E0B98CA1B}
+	EndGlobalSection
+EndGlobal

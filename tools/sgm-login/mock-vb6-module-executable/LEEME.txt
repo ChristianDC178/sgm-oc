@@ -1,0 +1,14 @@
+Pegar la carpeta LOGINSGM en disco local C
+
+Abrir "Simbolo de Sistemas" como administrador
+
+Ubicarse en la raiz Widnwos / MicrosoftNet / FrameWork / v4.0.xxx
+
+luego ejecutar el sigiente comando
+
+
+RegAsm.exe "C:\dll\EncryptionToVB6.dll" /tlb:EncryptionToV6_tlb.tlb /codebase
+
+Como desinstalar 
+
+RegAsm.exe -u "C:\dll\EncryptionToVB6.dll"
